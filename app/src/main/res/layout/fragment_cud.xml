@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+    <!-- ************ -->
+
+        <TextView
+            android:id="@+id/labelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelName" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp" />
+
+        <!-- ************ -->
+
+        <TextView
+            android:id="@+id/labelWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelWeight" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp" />
+
+
+        <Spinner
+            android:id="@+id/species"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:entries="@array/species"/>
+
+          <TextView
+              android:id="@+id/labelDate"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/labelDate" />
+
+          <DatePicker
+            android:datePickerMode="spinner"
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/newFish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelNew" />
+
+        <Button
+            android:id="@+id/makeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelMakeImage" />
+
+        <Button
+            android:id="@+id/makeChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelChange" />
+
+        <Button
+            android:id="@+id/deleteFish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelDelete" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelBack" />
+
+        <ImageView
+            android:id="@+id/slikaCUD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

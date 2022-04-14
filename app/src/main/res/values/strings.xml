@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ribarnica</string>
+    <string name="labelName">Naziv</string>
+    <string name="labelWeight">Težina</string>
+    <string name="species">Tip ribe</string>
+    <string name="labelDate">Datum ulova</string>
+    <string name="labelBack">Nazad</string>
+    <string name="labelImage">Slika ribe</string>
+    <string name="labelNew">Dodaj novu ribu</string>
+    <string name="labelChange">Promijeni ribu</string>
+    <string name="labelDelete">Obriši ribu</string>
+    <string name="labelMakeImage">Uslikaj ribu</string>
+</resources>
